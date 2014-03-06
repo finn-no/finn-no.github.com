@@ -41,13 +41,42 @@ body > .media {
 	background: url("http://hjemmehos.finn.no/no/webfolk_+_entusiaster/filestore/dev/GFX/menu_gadgets.png") no-repeat;
 	height: 200px;
 }
+.pulsate {
+	font-size: 1.2em;
+	-webkit-animation: pulsate 0.75s ease infinite alternate;
+	-moz-animation: pulsate 0.75s ease infinite alternate;
+	-ms-animation: pulsate 0.75s ease infinite alternate;
+	-o-animation: pulsate 0.75s ease infinite alternate;
+	animation: pulsate 0.75s ease infinite alternate;
+	display: inline-block;
+}
+@-webkit-keyframes pulsate {
+  0% { -webkit-transform: scale(1.0) }
+  100% { -webkit-transform: scale(0.9) }
+}
+@-moz-keyframes pulsate {
+  0% { -moz-transform: scale(1.0) }
+  100% { -moz-transform: scale(0.9) }
+}
+@-ms-keyframes pulsate {
+  0% { -ms-transform: scale(1.0) }
+  100% { -ms-transform: scale(0.9) }
+}
+@-o-keyframes pulsate {
+  0% { -o-transform: scale(1.0) }
+  100% { -o-transform: scale(0.9) }
+}
+@keyframes pulsate {
+  0% { transform: scale(1.0) }
+  100% { transform: scale(0.9) }
+}
 </style>
 </head>
 <body>
 
  <div class="media">
       <img class="img" src="img/tech_logo.png">
-      <p class=" bd h1 xxl">FINN Technology + GitHub = &hearts;</p>
+      <p class=" bd h1 xxl">FINN Technology + GitHub = <span class="pulsate">&hearts;</span></p>
  </div>
  <div class="relative hidelt768">
  	<div class="deco"></div>
