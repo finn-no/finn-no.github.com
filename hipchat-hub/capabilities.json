@@ -4,7 +4,7 @@
   "key": "no.finn.hipchat.hub",
   "links": {
     "homepage": "http://finn-no.github.io/hipchat-hub/",
-    "self": "http://finn-no.github.io/hipchat-hub/capabilities"
+    "self": "http://finn-no.github.io/hipchat-hub/capabilities.json"
   },
   "capabilities": {
     "hipchatApiConsumer": {
