@@ -9,7 +9,8 @@
   "capabilities": {
     "hipchatApiConsumer": {
       "scopes": [
-        "send_notification"
+        "send_notification",
+        "send_message"
       ]
     }
   }
