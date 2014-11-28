@@ -1,24 +1,7 @@
-.graded_support {
-	text-align: center;
-}
-.a_support {
-	background-color: rgb(121, 255, 79);
-	-webkit-box-shadow:inset 3px 5px 20px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow:inset 3px 5px 20px rgba(0, 0, 0, 0.15);
-	box-shadow:inset 3px 5px 20px rgba(0, 0, 0, 0.15);
-}
-.b_support {
-	background-color: rgb(240,230,140);
-	-webkit-box-shadow:inset 3px 5px 20px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow:inset 3px 5px 20px rgba(0, 0, 0, 0.15);
-	box-shadow:inset 3px 5px 20px rgba(0, 0, 0, 0.15);
-}
-.c_support {
-	background-color: rgb(190,190,190);
-	-webkit-box-shadow:inset 3px 5px 20px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow:inset 3px 5px 20px rgba(0, 0, 0, 0.15);
-	box-shadow:inset 3px 5px 20px rgba(0, 0, 0, 0.15);
-}
-.xxl {
-	padding-top: 70px;
+.forklaring {
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	border: 1px solid #cdd3d8;
+	margin-bottom: -4px;
 }
