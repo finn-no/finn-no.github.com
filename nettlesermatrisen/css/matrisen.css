@@ -5,7 +5,13 @@
 	border: 1px solid #cdd3d8;
 	margin-bottom: -4px;
 }
+.ftlogo {
+	width: 80px; 
+}
 
+@media screen and (min-width:600px) {
+	.ftlogo { width: 130px; }
+}
 @media screen and (max-width:600px) {
 	table th:nth-child(n+2):nth-child(-n+6),
 	table td:nth-child(n+2):nth-child(-n+6) { display: none; }
