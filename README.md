@@ -1,4 +1,2 @@
-finn.github.com
-===============
-
-Group page
+finn-no.github.com
+==================
