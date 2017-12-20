@@ -1,142 +1,126 @@
-<!doctype HTML>
-<html>
-<head>
-<title>FINN.no - GitHub</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" media="all" href="https://static.finncdn.no/bb/latest/css/so/so.css">
-<!--[if IE 9 ]>
-<link rel="stylesheet" type="text/css" media="screen,projection,handheld" href="https://static.finncdn.no/bb/latest/css/so/styles/so/ie9.css" />
-<![endif]-->
-<!--[if IE 8 ]>
-<link rel="stylesheet" type="text/css" media="screen,projection,handheld" href="https://static.finncdn.no/bb/latest/css/so/styles/so/ie8.css" />
-<![endif]-->
-<!--[if lte IE 8]>
-<link rel="stylesheet" type="text/css" media="screen,projection,handheld,print" href="https://static.finncdn.no/bb/latest/css/so/styles/so/ie.css" />
-<![endif]-->
-<link media="print" href="https://finncdn.no/bb/latest/css/spaden/print.min.css">
-<style>
-body {
-     height: 100%;
-     margin: 0;
-     padding: 0;
-}
-body > .media {
-	margin-top: 0;
-}
-.xxl {
-	padding-top: 70px;
-}
-.deco {
-	background: url("https://cache.finn.no/img/decoration/decoration_frontpage.png") no-repeat center top;
-	height: 57px;
-	top: -24px;
-	width: 840px;
-	left: 94px;
-	position: absolute;
-}
-.nerddeco {
-	border-top: 2px solid black;
-	background: url("img/menu_gadgets.png") no-repeat;
-	height: 200px;
-}
-.pulsate {
-	font-size: 1.2em;
-	-webkit-animation: pulsate 0.75s ease infinite alternate;
-	-moz-animation: pulsate 0.75s ease infinite alternate;
-	-ms-animation: pulsate 0.75s ease infinite alternate;
-	-o-animation: pulsate 0.75s ease infinite alternate;
-	animation: pulsate 0.75s ease infinite alternate;
-	display: inline-block;
-}
-@-webkit-keyframes pulsate {
-  0% { -webkit-transform: scale(1.0) }
-  100% { -webkit-transform: scale(0.9) }
-}
-@-moz-keyframes pulsate {
-  0% { -moz-transform: scale(1.0) }
-  100% { -moz-transform: scale(0.9) }
-}
-@-ms-keyframes pulsate {
-  0% { -ms-transform: scale(1.0) }
-  100% { -ms-transform: scale(0.9) }
-}
-@-o-keyframes pulsate {
-  0% { -o-transform: scale(1.0) }
-  100% { -o-transform: scale(0.9) }
-}
-@keyframes pulsate {
-  0% { transform: scale(1.0) }
-  100% { transform: scale(0.9) }
-}
-</style>
-</head>
-<body>
+<!doctype html>
+<html lang="nb">
+    <head>
+        <title>FINN.no GitHub</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <link rel="icon" href="https://static.finncdn.no/_c/spaden/v8.2.9/favicons/favicon.ico">
+        <link rel="stylesheet" href="docs/docs.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/context-box.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/core.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/grid.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/link.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/list.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/breadcrumbs.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/button.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/grid-cols-n-from-bp.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/grid-cols-f-to-t.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/media.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/input-toggle.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/pageholder.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/ad-gallery.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/status.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/ad-preview.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/input.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/banners.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/blockquote.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/broadcast.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/panel.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/definition-list.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/expandable.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/expansion-panel.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/footer.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/frontpage-search.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/ghost-icon.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/imageformat.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/marketgrid.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/panel-loop.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/profile.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/step-progress-bar.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/table.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/tabs.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/top-bar.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/image-carousel.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/lightbox-gallery.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/components/map.css"/>
+        <link rel="stylesheet" href="https://static.finncdn.no/_c/troika-css/v2.2.5/utilities.css"/>
+    </head>
+    <body>
 
- <div class="media">
-      <img class="img" src="img/tech_logo.png">
-      <p class=" bd h1 xxl">FINN Technology + GitHub = <span class="pulsate">&hearts;</span></p>
- </div>
- <div class="relative hidelt768">
- 	<div class="deco"></div>
- </div>
-<div class="line pal" >
-	<div class="unit r-size2of3">
-		<div class="mod shadow">
-			<div class="inner">
-				<div class="bd">
-					<p>We love open source and all of our products are built using wast amounts of open source technology. Therefor it is only fitting that we try to give back by making some of the things we make available to the world.</p>
-					<p>Open source is all about working together and we'd love to have your issues, pull requests or comments on the projects we have made available!</p>
-					<p class="centerify pal">
-						<a class="h2" href="https://github.com/finn-no">Check out our repositories!</a>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="mod shadow">
-			<div class="inner">
-				<div class="bd">
+    <div class="pageholder">
+        <div class="u-pt32">
+            <div class="u-t1">
+                Open Source at FINN.no
+            </div>
+        </div>
 
-					<h2>Our blog about technology we use and how we approach things</h2>
-					<p>Check out the blog written by the FINN developers over on <a href="http://tech.finn.no">tech.finn.no</a>. This is the place where our developers show what's powering our serivce along with useful insights into how to solve common problems.</p>
-					<h2>Work with us?</h2>
-					<p>Check out the <a href="http://hjemmehos.finn.no/no/jobbe_her+/ledige_stillinger_akkurat_na/">currently available positions</a> to come join our team of developers (<a href="http://translate.google.com/translate?sl=auto&tl=en&js=n&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fhjemmehos.finn.no%2Fno%2Fjobbe_her%2B%2Fledige_stillinger_akkurat_na%2F">English version</a>).</p>
-				</div>
-			</div>
-		</div>
-		<div class="mod shadow">
-			<div class="inner">
-				<div class="bd">
-					<h2>Recent acitivity on our repos</h2>
-					<iframe class="mll mbl" allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=finn-no&type=user" width="90%" height="300"></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="unit r-size1of3">
-		<div class="mod shadow mbn">
-			<div class="inner">
-				<div class="bd">
-					<h2>Links:</h2>
-					<ul class="pll bullets">
-						<li><a href="http://github.com/finn-no">Our GitHub repos</a></li>
-						<li><a href="http://tech.finn.no">Tech blog</a></li>
-						<li><a href="http://twitter.com/finn_tech">@finn_tech</a></li>
-						<li><a href="nettlesermatrisen">Browser matrix</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="mod nerddeco"></div>
-	</div>
-</div>
-<div class="footer pal bg-contrast contrast">
-	<a href="http://twitter.com/finn_tech">Finn Technology on Twitter</a> |
-	<a href="http://tech.finn.no">Our developer blog</a> |
-	<a href="http://hjemmehos.finn.no/no/jobbe_her+/">Come work with us!</a> |
-	<a href="http://finn.no">FINN.no</a>
-</div>
-</div>
-</body>
+        <div class="panel panel--info">
+            We love open source and all of our products are built using vast amounts of open source technology. Therefore it is only fitting that we try to give back by making some of the things we make available to the world.
+            Open source is all about working together and we'd love to have your issues, pull requests or comments on the projects we have made available!
+        </div>
+
+        <div class="u-t2">
+            Featured projects
+        </div>
+        <div class="panel panel--info">
+            <div class="grid grid--cols1to2">
+                <div class="grid__unit">
+                    <div style="min-height:50px;width:100%;padding:16px;background:#CCFFEC">
+                        <a href="https://github.com/fiaas/">FIaaS</a><br/>
+                        FINN Infrastructure as a Service
+                    </div>
+                </div>
+                <div class="grid__unit">
+                    <div style="min-height:50px;width:100%;padding:16px;background:#CCFFEC">
+                        <a href="https://github.com/unleash/">Unleash</a><br/>
+                        Our feature-toggling system
+                    </div>
+                </div>
+                <div class="grid__unit">
+                    <div style="min-height:50px;width:100%;padding:16px;background:#CCFFEC">
+                        <a href="https://github.com/finn-no/Finjinon">Finjinon</a><br />
+                        Image handling for iOS
+                    </div>
+                </div>
+                <div class="grid__unit">
+                    <div style="min-height:50px;width:100%;padding:16px;background:#CCFFEC">
+                        <a href="https://github.com/finn-no/capturandro">Capturandro</a><br />
+                        Image handling for Android
+                    </div>
+                </div>
+            </div>
+            <div class="u-text-center">
+                <a href="https://github.com/finn-no?utf8=%E2%9C%93&q=&type=source&language=">View full list of repositories</a>
+            </div>
+        </div>
+
+
+        <div class="u-t2">
+            Tech blog
+        </div>
+        <div class="panel panel--info">
+            Check out the blog written by the FINN developers over on <a href="http://tech.finn.no">tech.finn.no</a>. This is the place where our developers show what's powering our service along with useful insights into how to solve common problems.
+        </div>
+
+        <div class="u-t2">
+            Work with us?
+        </div>
+        <div class="panel panel--info">
+            Check out the <a href="https://jobbifinn.finn.no/ledige-stillinger">currently available positions</a> to come join our team of developers.
+        </div>
+
+        <div class="mod shadow">
+            <div class="inner">
+                <div class="bd">
+                    <h2>Recent activity on our repos</h2>
+                    <iframe class="mll mbl" allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=finn-no&type=user" width="100%" height="300"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--<script type="text/javascript" src="docs/index.js"></script>-->
+    </body>
 </html>
